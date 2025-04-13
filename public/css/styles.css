@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+  button {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+  }
+  #history {
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+  }
+  .exchange {
+    margin-bottom: 1.5rem;
+  }
+  .prompt {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+  .cursor {
+    animation: blink 1s steps(1) infinite;
+  }
+  .response pre {
+    overflow-x: auto;
+    border-radius: 6px;
+    background: #f6f8fa;
+    padding: 1rem;
+  }
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  #server-url {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
