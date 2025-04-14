@@ -4,7 +4,7 @@ import MarkdownRenderer from "./markdown-renderer.js";
 class OllamaChat {
   constructor() {
     this.client = new OllamaClient({
-      defaultModel: "gpt-4o",
+      defaultModel: "gpt-4o-2024-05-13",
       serverUrl: "http://localhost:8080", // your proxy
       useOpenAI: false,
     });

@@ -26,7 +26,7 @@ class OllamaClient {
      * @returns {Promise<Object>} - The complete response
      */
     async generateCompletion({ prompt, model, signal, messages }) {
-      const modelName = model || this.defaultModel;
+      const modelName = model || this.defaultModel || 'gpt-4o-2024-05-13';
       const url = `${this.serverUrl}/api/generate`;
 
       console.log("🚀 Sending to:", url);
